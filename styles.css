@@ -1,0 +1,265 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    line-height: 75px;
+    padding: 0 100px;
+    position: fixed;
+    z-index: 1;
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.navbar .logo{
+    float: left;
+    color: #fff;
+}
+
+.navbar ul{
+    float: right;
+    
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+
+
+.topnav ul{
+    margin: 0;
+    padding:90px;
+    list-style: none;
+    height: 16px; 
+    background-color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
+.topnav ul li{
+    padding-top: 10px;
+    float: left;
+    color: black;
+}
+
+.topnav ul li a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    
+}
+.topnav ul .search {
+    padding-top: 30px;
+
+float: right;
+
+}
+
+.container-1{
+    display: flex;
+   align-items: center;
+   background-color: darkgray;
+}
+.container-1 div{
+    border: 1px #ccc;
+    padding: 20px ;
+    
+}
+
+.box-1{
+    flex: 1;
+    margin-left: 100px;
+
+
+}
+
+.box-2{
+   flex: 1;
+   margin-left: 100px;
+  
+
+}
+.box-2 p{
+font-size: 58px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 500;
+}
+
+.box-3{
+   flex: 1;
+   margin-left: 80px;
+   margin-right: 80px;
+   
+
+}
+
+.box-3 p{
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: 10px;
+    
+}
+
+.container-2 p {
+    margin-top: 10px;
+    
+    
+}
+
+.deal {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.d {
+    font-size: 30px;
+}
+
+.card-img-top {
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.card-text {
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+
+
+
+
+.placeholder{
+    width: 90%;
+    display: inline-block;
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+   
+}
+
+.fash{
+    font-size: 20px;
+    margin-left: 40px;
+}
+.f{
+    font-size: 30px;
+}
+
+.container-3{
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.cards{
+    background-color:skyblue;
+    width: 18%;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 20px;
+    float: left;
+}
+
+.image img{
+    width: 100%;
+    
+}
+.card-footer{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+    
+}
+
+.cards-2{
+    background-color:skyblue;
+    width: 18%;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 50px;
+    display: inline-block;
+
+   float: left;
+}
+
+
+.brand-link p{
+    width: 80%;
+    padding-top: 10px;
+    
+}
+#bn{
+    font-size: 15px;
+    padding-top: 30px;
+    margin-left: 50px;
+    
+}
+
+.brand-link{
+   
+    margin-top: 30px;
+    clear: both;
+}
+
+.footer{
+    background-color: #24262b;
+    margin-top: 40px;
+    padding: 30px 0 ;
+
+    
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15;
+}
+
+.footer-col h4{
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+}
+.abs{
+    margin-top: 20px;
+}
+
+.footer-col ul li{
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
